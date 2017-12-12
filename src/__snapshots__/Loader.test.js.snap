@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader data loading fail 1`] = `
+<div>
+  <div>
+    error
+  </div>
+  <button>
+    Load data
+  </button>
+</div>
+`;
+
+exports[`Loader render data loaded 1`] = `
+<div>
+  <div>
+    <p
+      key="2"
+    />
+  </div>
+  <button>
+    Load data
+  </button>
+</div>
+`;
+
+exports[`Loader render loading data 1`] = `
+<div>
+  <div>
+    ...loading
+  </div>
+  <button>
+    Load data
+  </button>
+</div>
+`;
+
+exports[`Loader render not asked 1`] = `
+<div>
+  <div>
+    Not Loaded Data
+  </div>
+  <button>
+    Load data
+  </button>
+</div>
+`;
